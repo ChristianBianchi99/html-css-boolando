@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+/* INIZIO STILI HEADER */
+header {
+    background-color: rgb(255, 105, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    box-shadow: 0px 1px 5px black;
+}
+header .row{
+    padding: 15px 0 15px;
+}
+header a {
+    font-size: 11px;
+}
+header img {
+    height: 20px;
+}
+header i {
+    transform: scale(0.7);
+}
+/* FINE STILI HEADER */
+/* INIZIO STILI MAIN */
+main {
+    margin-top: 100px;
+}
+main .row {
+    flex-wrap: wrap;
+}
+main .col {
+    width: calc(100% / 3 - 10px);
+}
+.card {
+    margin-bottom: 35px;
+}
+/* FIGURE */
+.figure {
+    position: relative;
+}
+main img {
+    width: 100%;
+}
+.modello-a {
+    display: block;
+}
+.modello-b {
+    display: none;
+}
+.card:hover .modello-a {
+    display: none;
+}
+.card:hover .modello-b {
+    display: block;
+}
+.preferiti {
+    background-color: white;
+    font-size: 30px;
+    padding: 4px 13px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.preferiti:hover {
+    color: red;
+}
+.sconto, .sostenibilità {
+    padding: 4px 8px;
+    position: absolute;
+    bottom: 30px;
+}
+.sconto {
+    background-color: red;
+}
+.sostenibilità {
+    background-color: green;
+}
+.third-label {
+    left: 45px;
+}
+/* CONTENT */
+.brand {
+    margin-top: 5px;
+}
+.capo {
+    font-size: 15px;
+    margin-bottom: -6px;
+}
+.prezzo {
+    margin-right: 2px;
+}
+.scontato {
+    color: red;
+}
+.pieno {
+    text-decoration: line-through;
+}
+/* FINE STILI MAIN */
+/* INIZIO STILI FOOTER */
+footer {
+    background-color: rgb(26, 26, 26);
+}
+footer .row {
+    padding: 25px 0 25px;
+}
+#azienda {
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.contatti {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* FINE STILI FOOTER */
+/* INIZIO STILI LAYOUT */
+.container {
+    width: 70%;
+    margin: auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+/* FINE STILI LAYOUT */
+/* INIZIO STILI IN COMUNE */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+footer a, .sconto, .sostenibilità, .brand, .prezzo, #find-us {
+    font-size: 10px;
+}
+header a, .sconto, .sostenibilità, .capo, .scontato, #azienda, #find-us {
+    font-weight: bold;
+}
+header, footer, .sconto, .sostenibilità {
+    color: white;
+}
+/* FINE STILI IN COMUNE */

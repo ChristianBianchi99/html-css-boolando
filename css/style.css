@@ -15,6 +15,7 @@ header {
     right: 0;
     z-index: 100;
     color: white;
+    box-shadow: 0px 1px 5px black;
 }
 header .row, footer .row {
     justify-content: space-between;
@@ -34,6 +35,85 @@ header i {
 }
 /* FINE STILI HEADER */
 /* INIZIO STILI MAIN */
+main {
+    margin-top: 100px;
+}
+main .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .col {
+    width: calc(100% / 3 - 10px);
+}
+.card {
+    margin-bottom: 35px;
+}
+/* FIGURE */
+.figure {
+    position: relative;
+}
+main img {
+    width: 100%;
+}
+.modello-a {
+    display: block;
+}
+.modello-b {
+    display: none;
+}
+.card:hover .modello-a {
+    display: none;
+}
+.card:hover .modello-b {
+    display: block;
+}
+.preferiti {
+    background-color: white;
+    font-size: 30px;
+    padding: 4px 13px;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.sconto, .sostenibilità {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 4px 8px;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+}
+.sconto {
+    background-color: red;
+}
+.sostenibilità {
+    background-color: green;
+}
+.third-label {
+    left: 45px;
+}
+/* CONTENT */
+.brand {
+    font-size: 11px;
+    margin-top: 5px;
+}
+.capo {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: -6px;
+}
+.prezzo {
+    font-size: 11px;
+    margin-right: 2px;
+}
+.scontato {
+    color: red;
+    font-weight: bold;
+}
+.pieno {
+    text-decoration: line-through;
+}
 /* FINE STILI MAIN */
 /* INIZIO STILI FOOTER */
 /* FINE STILI FOOTER */
@@ -46,3 +126,5 @@ header i {
     display: flex;
 }
 /* FINE STILI LAYOUT */
+/* INIZIO STILI IN COMUNE */
+/* FINE STILI IN COMUNE */

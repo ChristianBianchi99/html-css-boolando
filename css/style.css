@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+/* INIZIO STILI HEADER */
+header {
+    background-color: rgb(255, 105, 0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    color: white;
+}
+header .row, footer .row {
+    justify-content: space-between;
+    margin: 15px 0 15px;
+}
+header a {
+    font-size: 11px;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+}
+header img {
+    height: 20px;
+}
+header i {
+    transform: scale(0.7);
+}
+/* FINE STILI HEADER */
+/* INIZIO STILI MAIN */
+/* FINE STILI MAIN */
+/* INIZIO STILI FOOTER */
+/* FINE STILI FOOTER */
+/* INIZIO STILI LAYOUT */
+.container {
+    width: 70%;
+    margin: auto;
+}
+.row {
+    display: flex;
+}
+/* FINE STILI LAYOUT */
